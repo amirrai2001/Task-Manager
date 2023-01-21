@@ -1,0 +1,17 @@
+.container{
+    width: auto;
+    height: 16vh;
+
+}
+#form-item{
+    width: auto;
+    height: 10vh;
+    margin: 10rem;
+    border: 2px red;
+}
+.list-item{
+    border: 1rem;
+    width: 100%;
+    height: auto;
+    
+}
