@@ -1,17 +1,52 @@
-.container{
-    width: auto;
-    height: 16vh;
+body{
+ background-image: linear-gradient(to right, #434343 0%, black 100%);
 
 }
-#form-item{
-    width: auto;
-    height: 10vh;
-    margin: 10rem;
-    border: 2px red;
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
 }
-.list-item{
-    border: 1rem;
-    width: 100%;
-    height: auto;
+.btn{
+    width: 11rem;
+    font-style: italic;
+    font-weight: 700;
+
+
+}
+.btn:hover{
+    border-radius: 20%;
+    background-color:#434343;
     
+}
+.items-container{
+    
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    
+}
+.input-item{
+
+    height: 2rem;
+}
+.button-1{
+background-color: rgb(255, 255, 255); 
+}
+.button-1:hover{
+    border-radius: 20%;
+    background-color:#434343;
+}
+.button-2:hover{
+    border-radius: 20%;
+    background-color:#434343;
+}
+span{
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 700;
+
 }
